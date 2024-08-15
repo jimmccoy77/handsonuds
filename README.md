@@ -45,7 +45,7 @@ By the end of this 30-minute workshop, participants will have deployed an Nginx 
              required: true
              charts:
                - name: nginx
-                 version: stable
+                 version: 18.1.9
                  namespace: nginx
                  url: https://charts.bitnami.com/bitnami
                  gitPath: charts/nginx
