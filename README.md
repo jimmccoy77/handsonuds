@@ -121,6 +121,9 @@ By the end of this 30-minute workshop, participants will have deployed an Nginx 
     - Command: `kubectl port-forward pod/nginx-<pod-name> 8080:80 -n nginx`
   - **Access Nginx in Browser:**
     - URL: `http://localhost:8080`
+  - **Install k9s:**
+  -   ` # Via Homebrew
+ brew install derailed/k9s/k9s`
 
 ### **7. Q&A and Wrap-Up (2 minutes)**
 
