@@ -75,7 +75,7 @@ By the end of this 30-minute workshop, participants will have deployed an Nginx 
          metadata:
            name: nginx-bundle
            description: Bundle with k3d, Zarf init, UDS Core, and nginx.
-           architecture: amd64
+           architecture: arm64
            version: 1.0.0
 
          packages:
@@ -102,7 +102,7 @@ By the end of this 30-minute workshop, participants will have deployed an Nginx 
      - **Create the UDS Bundle:**
        - Command: `uds create --confirm`
      - **Deploy the UDS Bundle:**
-       - Command: `uds deploy uds-bundle-nginx-bundle-amd64-1.0.0.tar.zst --confirm`
+       - Command: `uds deploy uds-bundle-nginx-bundle-arm64-1.0.0.tar.zst --confirm`
 
 #### **6. Interact with the Deployed Nginx Server (3 minutes)**
    - **Objective:** Verify the deployment and interact with the Nginx server.
