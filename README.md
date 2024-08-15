@@ -92,7 +92,7 @@ By the end of this 30-minute workshop, participants will have deployed an Nginx 
              ref: 0.9.1-upstream
 
            - name: nginx
-             path: ./nginx-package/
+             path: ./
              ref: 1.0.0
          ```
 
